@@ -13,7 +13,7 @@ const completeBtn = document.getElementById('complete-button');
 
 let countdownTitle = '';
 let countdownDate = '';
-let countdownValue = Date;
+let countdownValue = new Date();
 let countdownActive;
 let savedCountdown; // object to access globally in order to cach with LocalStorage
 
